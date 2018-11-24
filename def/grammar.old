@@ -1,0 +1,5 @@
+$digit = SATU | DUA | TIGA | EMPAT | LIMA | ENAM | TUJUH | DELAPAN | SEMBILAN | SEPULUH | SEBELAS;
+$basis = PULUH | BELAS;
+$operator = TAMBAH | KURANG | KALI | BAGI;
+
+( SENT-START ( $digit [$basis] <$operator $digit [$basis]> ) SENT-END )

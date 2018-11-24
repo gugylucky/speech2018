@@ -1,0 +1,5 @@
+data/test/sig/gugy_02.sig data/test/mfcc/gugy_02.mfcc
+data/test/sig/gugy_02_1.sig data/test/mfcc/gugy_02_1.mfcc
+data/test/sig/nabil_03_1.sig data/test/mfcc/nabil_03_1.mfcc
+data/test/sig/nabil_03_2.sig data/test/mfcc/nabil_03_2.mfcc
+data/test/sig/nabil_04.sig data/test/mfcc/nabil_04.mfcc

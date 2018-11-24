@@ -1,0 +1,4 @@
+data/train/sig/gugy_01.sig data/train/mfcc/gugy_01.mfcc
+data/train/sig/gugy_02.sig data/train/mfcc/gugy_02.mfcc
+data/train/sig/gugy_04.sig data/train/mfcc/gugy_04.mfcc
+data/train/sig/rahmat_03_1.sig data/train/mfcc/rahmat_03_1.mfcc
