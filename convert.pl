@@ -3,8 +3,8 @@
 use File::Basename;
 
 my $type = $ARGV[0];
-if ($type == 'test') {
-   print('Converting testing data...');
+if ($type eq 'test') {
+   print("Converting testing data...\n");
    $source_dir = 'data/test/mpeg/*';
    $wav_dir = 'data/test/wav/';
    $sig_dir = 'data/test/sig/';
@@ -12,7 +12,7 @@ if ($type == 'test') {
    $analysis_conf_file = 'config/analysis.config';
    $targetlist = 'data/test/targetlist';
 } else {
-   print('Converting training data...');
+   print("Converting training data...\n");
    $source_dir = 'data/train/mpeg/*';
    $wav_dir = 'data/train/wav/';
    $sig_dir = 'data/train/sig/';

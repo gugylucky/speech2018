@@ -1,3 +1,4 @@
 *.wav
 *.mfcc
 *.sig
+data/train/lab/temp/

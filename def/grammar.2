@@ -1,0 +1,8 @@
+$digit_tanpa_1 = DUA | TIGA | EMPAT | LIMA | ENAM | TUJUH | DELAPAN | SEMBILAN;
+$digit = SATU | DUA | TIGA | EMPAT | LIMA | ENAM | TUJUH | DELAPAN | SEMBILAN;
+$belasan = SEBELAS | $digit_tanpa_1 BELAS;
+$puluhan = SEPULUH | $digit_tanpa_1 PULUH [$digit];
+$operator = TAMBAH | KURANG | KALI | BAGI;
+$operand = $digit | $belasan | $puluhan;
+
+( SENT-START ( <$operand $operator $operand> ) SENT-END )

@@ -2,12 +2,18 @@
 
 use File::Basename;
 
+$grammar = 'def/grammar.2';
 $wordnet = 'def/wdnet';
 $dictionary = 'def/dict';
 $hmmlist = 'model/hmmlist';
 $testlist = 'data/test/testlist';
-$hmm_model_name = 'model/hmm3/*';
+$hmm_model_name = 'model/hmm10/*';
 $config_file = 'config/test.config';
+
+# HParse grammarnya dulu
+$command = "HParse -T 1 $grammar $wordnet";
+print $command;
+system($command);
 
 # Decoding
 my @files = glob($hmm_model_name);

@@ -8,7 +8,7 @@ $trainlist = 'data/train/trainlist';
 $config_file = 'config/train.config';
 $proto_dir_search = 'model/proto/*';
 $proto_dir = 'model/proto/';
-$iteration = 3;
+$iteration = 10;
 
 # HInit
 $directory = 'model/hmm0';
