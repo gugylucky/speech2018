@@ -3,6 +3,9 @@ data/train/sig/gugy_02.sig data/train/mfcc/gugy_02.mfcc
 data/train/sig/gugy_03.sig data/train/mfcc/gugy_03.mfcc
 data/train/sig/gugy_04.sig data/train/mfcc/gugy_04.mfcc
 data/train/sig/rahmat_03_1.sig data/train/mfcc/rahmat_03_1.mfcc
+data/train/sig/rahmat_03_2.sig data/train/mfcc/rahmat_03_2.mfcc
+data/train/sig/rahmat_03_3.sig data/train/mfcc/rahmat_03_3.mfcc
+data/train/sig/mena_04.sig data/train/mfcc/mena_04.mfcc
 data/train/sig/insan_01_1.sig data/train/mfcc/insan_01_1.mfcc
 data/train/sig/insan_01_2.sig data/train/mfcc/insan_01_2.mfcc
 data/train/sig/insan_01_3.sig data/train/mfcc/insan_01_3.mfcc
@@ -63,3 +66,12 @@ data/train/sig/insan_04_17.sig data/train/mfcc/insan_04_17.mfcc
 data/train/sig/insan_04_18.sig data/train/mfcc/insan_04_18.mfcc
 data/train/sig/insan_04_19.sig data/train/mfcc/insan_04_19.mfcc
 data/train/sig/insan_04_20.sig data/train/mfcc/insan_04_20.mfcc
+data/train/sig/sigit_03.sig data/train/mfcc/sigit_03.mfcc
+data/train/sig/tosi_01.sig data/train/mfcc/tosi_01.mfcc
+data/train/sig/sari_01.sig data/train/mfcc/sari_01.mfcc
+data/train/sig/sari_02.sig data/train/mfcc/sari_02.mfcc
+data/train/sig/sari_03.sig data/train/mfcc/sari_03.mfcc
+data/train/sig/sari_04.sig data/train/mfcc/sari_04.mfcc
+data/train/sig/budi_01.sig data/train/mfcc/budi_01.mfcc
+data/train/sig/budi_02.sig data/train/mfcc/budi_02.mfcc
+data/train/sig/budi_03.sig data/train/mfcc/budi_03.mfcc

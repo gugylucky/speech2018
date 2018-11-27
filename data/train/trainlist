@@ -3,6 +3,9 @@ data/train/mfcc/gugy_02.mfcc
 data/train/mfcc/gugy_03.mfcc
 data/train/mfcc/gugy_04.mfcc
 data/train/mfcc/rahmat_03_1.mfcc
+data/train/mfcc/rahmat_03_2.mfcc
+data/train/mfcc/rahmat_03_3.mfcc
+data/train/mfcc/mena_04.mfcc
 data/train/mfcc/insan_01_1.mfcc
 data/train/mfcc/insan_01_2.mfcc
 data/train/mfcc/insan_01_3.mfcc
@@ -63,3 +66,12 @@ data/train/mfcc/insan_04_17.mfcc
 data/train/mfcc/insan_04_18.mfcc
 data/train/mfcc/insan_04_19.mfcc
 data/train/mfcc/insan_04_20.mfcc
+data/train/mfcc/sigit_03.mfcc
+data/train/mfcc/tosi_01.mfcc
+data/train/mfcc/sari_01.mfcc
+data/train/mfcc/sari_02.mfcc
+data/train/mfcc/sari_03.mfcc
+data/train/mfcc/sari_04.mfcc
+data/train/mfcc/budi_01.mfcc
+data/train/mfcc/budi_02.mfcc
+data/train/mfcc/budi_03.mfcc

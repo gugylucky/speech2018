@@ -2,12 +2,12 @@
 
 use File::Basename;
 
-$grammar = 'def/grammar.2';
+$grammar = 'def/grammar.3';
 $wordnet = 'def/wdnet';
 $dictionary = 'def/dict';
 $hmmlist = 'model/hmmlist';
-$testlist = 'data/test/testlist';
-$hmm_model_name = 'model/hmm10/*';
+$testlist = 'data/test/testlist.2';
+$hmm_model_name = 'model/hmm5/*';
 $config_file = 'config/test.config';
 
 # HParse grammarnya dulu

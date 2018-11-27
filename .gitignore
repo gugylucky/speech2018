@@ -2,3 +2,4 @@
 *.mfcc
 *.sig
 data/train/lab/temp/
+results
