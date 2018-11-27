@@ -2,10 +2,10 @@
 
 use File::Basename;
 
-$grammar = 'def/grammar.3';
+$grammar = 'def/grammar.4';
 $wordnet = 'def/wdnet';
-$dictionary = 'def/dict';
-$hmmlist = 'model/hmmlist';
+$dictionary = 'def/dict.2';
+$hmmlist = 'model/hmmlist.2';
 $testlist = 'data/test/testlist.2';
 $hmm_model_name = 'model/hmm5/*';
 $config_file = 'config/test.config';

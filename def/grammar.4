@@ -1,0 +1,6 @@
+$digit1 = SATU | SEPULUH | SEBELAS;
+$digit2 = DUA | TIGA | EMPAT | LIMA | ENAM | TUJUH | DELAPAN | SEMBILAN;
+$basis = BELAS | PULUH ;
+$operator = KALI  | BAGI | TAMBAH  | KURANG ;
+
+( SENT-START {SIL}( $digit1 | $digit2 | ( $digit2 {SIL} $basis )) {SIL} $operator {SIL} ( $digit1 | $digit2 | ( $digit2 {SIL} $basis )){SIL}  SENT-END )

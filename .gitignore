@@ -3,3 +3,4 @@
 *.sig
 data/train/lab/temp/
 results
+hasil/*
