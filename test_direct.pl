@@ -2,11 +2,11 @@
 
 use File::Basename;
 
-$grammar = 'def/grammar';
+$grammar = 'def/grammar.4';
 $wordnet = 'def/wdnet';
-$dictionary = 'def/dict';
-$hmmlist = 'model/hmmlist';
-$hmm_model_name = 'model/hmm3/*';
+$dictionary = 'def/dict.1';
+$hmmlist = 'model/hmmlist.1';
+$hmm_model_name = 'model/hmm5/*';
 $config_file = 'config/directin.config';
 
 # Decoding
@@ -17,6 +17,5 @@ foreach (@files){
 	$hmmsdef .= " -H $_";
 }
 $command = "HVite -T 1 -C $config_file -g $hmmsdef -w $wordnet $dictionary $hmmlist";
-HVite -A -D -T 1 -C directin.conf -g -H hmmsdef.mmf -w net.slf dict.txt hmmlist.txt
 print $command;
 system($command);

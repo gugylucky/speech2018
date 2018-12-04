@@ -4,10 +4,10 @@ use File::Basename;
 
 $grammar = 'def/grammar.4';
 $wordnet = 'def/wdnet';
-$dictionary = 'def/dict.2';
-$hmmlist = 'model/hmmlist.2';
+$dictionary = 'def/dict.1';
+$hmmlist = 'model/hmmlist.1';
 $testlist = 'data/test/testlist.2';
-$hmm_model_name = 'model/hmm5/*';
+$hmm_model_name = 'model/hmm10/*';
 $config_file = 'config/test.config';
 
 # HParse grammarnya dulu
